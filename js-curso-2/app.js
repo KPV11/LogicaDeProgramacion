@@ -13,3 +13,13 @@ function preguntaCiudad(){
 function amojs(){
     alert('Yo amo JS');
 }
+
+function suma(){
+    let numero1 = parseInt(prompt("Ingrese el primero numero: "));
+    let numero2 = parseInt(prompt("Ingrese el segundo numero: "));
+    let suma;
+
+    suma = numero1 + numero2;
+
+    alert(`la suma es: ${suma}`);
+}
