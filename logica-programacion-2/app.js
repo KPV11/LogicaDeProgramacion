@@ -8,6 +8,7 @@ function asignarTextoElemento(elemento, texto){
 }
 
 function verificarIntento(){
+    //getElementById , busca un elemento por su Id
     let numeroUsuario = parseInt(document.getElementById('valorUsuario').value);
     console.log(typeof(numeroUsuario));
     console.log(numeroSecreto);
